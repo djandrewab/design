@@ -1,4 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+<style>
+ .flex-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    }
 
-<a href="firestach.png" style="width: auto; height: auto;" download>
-    <img src="firestach.png" alt="firestach">
-  </a>
+.flex-item:nth-child(1) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    }
+
+.flex-item:nth-child(2) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    }
+
+.flex-item:nth-child(3) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    }
+    .flex-container2 {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    }
+
+.flex-item2:nth-child(1) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    }
+
+.flex-item2:nth-child(2) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    }
+
+.flex-item2:nth-child(3) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    }
+
+.flex-item2:nth-child(4) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    }
+  .sFond{
+    background-image: linear-gradient(#00FF00, #006400);
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+  .sDownload{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    background-color: black;
+    color: blanchedalmond;
+    border-radius: 20px;
+    font-family: 'Reggae One', cursive;
+  }
+</style>
+</head>
+<div class="flex-container sFond">
+  <img src="Titre.png" class="flex-item:nth-child(2)"style="width: 400px; height: auto; margin: 10px;">
+  <a href="firestach.zip" class="sDownload" target="_blank" download>Click to download zip file with all versionsof the firestach</a>
+  <h3>Or you can also save the image of your choice</h3>
+  <div class="flex-container2">
+    
+    <img src="firestach_final_shadow_back.png" class="flex-item2:nth-child(1)"style="width: 300px; height: auto;">
+    <img src="firestach_final_shadow_back_square.png" class="flex-item2:nth-child(2)"style="width: 300px; height: auto;">
+    <img src="firestach_final_shadow_under.png" class="flex-item2:nth-child(3)"style="width: 300px; height: auto;">
+    <img src="firestach_final_shadow_under_square.png" class="flex-item2:nth-child(4)"style="width: 300px; height: auto;">
+  </div>
+  
+  <footer style="margin-bottom: 30px; color: wheat;font-size: 20px;">
+  &copy; Androuli 2021 :)
+</footer>
+</div>
+
